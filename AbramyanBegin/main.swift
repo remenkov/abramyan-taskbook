@@ -24,6 +24,7 @@ func runTask() -> Bool {
         case 3: begin03()
         case 4: begin04()
         case 5: begin05()
+        case 6: begin06()
         default:
             print("Нет задачи с номером \(taskNumber)")
             return true
