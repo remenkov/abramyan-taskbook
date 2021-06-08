@@ -17,6 +17,7 @@
 		E0DE7BF3F9D49506F890FB69 /* for-01.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE7589C7F3EFE94263C3D5 /* for-01.swift */; };
 		E0DE7D87CE3D74C8D8EEBFE5 /* begin-05.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE727B3DB2AA93ED3932A7 /* begin-05.swift */; };
 		E0DE7EB5BD904C3D86972207 /* begin-01.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE775C3B50A9359661F9FE /* begin-01.swift */; };
+		E0DE7FD76B3197482890E630 /* begin-07.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE74FEC970CF370B5F9F94 /* begin-07.swift */; };
 		E0DE7FEE7C26E7B707691C20 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE7B6C4A430DCF0A0DEB4E /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 /* Begin PBXFileReference section */
 		E0DE727012D79396819C377C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E0DE727B3DB2AA93ED3932A7 /* begin-05.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "begin-05.swift"; sourceTree = "<group>"; };
+		E0DE74FEC970CF370B5F9F94 /* begin-07.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "begin-07.swift"; sourceTree = "<group>"; };
 		E0DE74FEFEADE86A5FCC5A5C /* AbramyanArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbramyanArray; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DE752BD7758CBB190B1D81 /* begin-04.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "begin-04.swift"; sourceTree = "<group>"; };
 		E0DE75401B8F06F3A75A190B /* begin-06.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "begin-06.swift"; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				E0DE752BD7758CBB190B1D81 /* begin-04.swift */,
 				E0DE727B3DB2AA93ED3932A7 /* begin-05.swift */,
 				E0DE75401B8F06F3A75A190B /* begin-06.swift */,
+				E0DE74FEC970CF370B5F9F94 /* begin-07.swift */,
 			);
 			path = AbramyanBegin;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				E0DE709DCB68799D02AD7067 /* begin-04.swift in Sources */,
 				E0DE7D87CE3D74C8D8EEBFE5 /* begin-05.swift in Sources */,
 				E0DE7A0D3591461E63A398F5 /* begin-06.swift in Sources */,
+				E0DE7FD76B3197482890E630 /* begin-07.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

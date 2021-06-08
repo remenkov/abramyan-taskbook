@@ -25,6 +25,7 @@ func runTask() -> Bool {
         case 4: begin04()
         case 5: begin05()
         case 6: begin06()
+        case 7: begin07()
         default:
             print("Нет задачи с номером \(taskNumber)")
             return true
@@ -35,22 +36,7 @@ func runTask() -> Bool {
 
 func doRefactor() {
 
-/*
- Begin7◦.
- Найти длину окружности L и площадь круга S заданного радиуса R: L = 2·π·R, S = π·R2.
- В качестве значения π использовать 3.14.
- */
 
-    func getCircleLenght(radius: Double) -> Double {
-        2 * Double.pi * radius
-    }
-
-    func getCircleSquare(radius: Double) -> Double {
-        Double.pi * pow(radius, 2)
-    }
-
-    print("Длна окружности составлет: \(getCircleLenght(radius: 15))")
-    print("Площадь круга составляет: \(getCircleSquare(radius: 15))")
 
 /*
  Begin8◦.
