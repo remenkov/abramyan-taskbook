@@ -10,6 +10,7 @@
 		E0DE7037FEF3E23B32D5F2CE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE727012D79396819C377C /* main.swift */; };
 		E0DE709DCB68799D02AD7067 /* begin-04.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE752BD7758CBB190B1D81 /* begin-04.swift */; };
 		E0DE772A5D1849ACA82B2095 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE76F118F4A18C989ADFE6 /* main.swift */; };
+		E0DE77A10D1E18799BE9325A /* begin-08.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE7291CF716D2768DD7413 /* begin-08.swift */; };
 		E0DE77F1660D11649BE6FEE8 /* begin-03.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE7B532629BCAB31123EE6 /* begin-03.swift */; };
 		E0DE7807D9558D93BA83A9FA /* begin-02.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE7A93C84451E85F2C4232 /* begin-02.swift */; };
 		E0DE7A0D3591461E63A398F5 /* begin-06.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE75401B8F06F3A75A190B /* begin-06.swift */; };
@@ -63,6 +64,7 @@
 /* Begin PBXFileReference section */
 		E0DE727012D79396819C377C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E0DE727B3DB2AA93ED3932A7 /* begin-05.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "begin-05.swift"; sourceTree = "<group>"; };
+		E0DE7291CF716D2768DD7413 /* begin-08.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "begin-08.swift"; sourceTree = "<group>"; };
 		E0DE74FEC970CF370B5F9F94 /* begin-07.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "begin-07.swift"; sourceTree = "<group>"; };
 		E0DE74FEFEADE86A5FCC5A5C /* AbramyanArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbramyanArray; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DE752BD7758CBB190B1D81 /* begin-04.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "begin-04.swift"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				E0DE727B3DB2AA93ED3932A7 /* begin-05.swift */,
 				E0DE75401B8F06F3A75A190B /* begin-06.swift */,
 				E0DE74FEC970CF370B5F9F94 /* begin-07.swift */,
+				E0DE7291CF716D2768DD7413 /* begin-08.swift */,
 			);
 			path = AbramyanBegin;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				E0DE7D87CE3D74C8D8EEBFE5 /* begin-05.swift in Sources */,
 				E0DE7A0D3591461E63A398F5 /* begin-06.swift in Sources */,
 				E0DE7FD76B3197482890E630 /* begin-07.swift in Sources */,
+				E0DE77A10D1E18799BE9325A /* begin-08.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -26,6 +26,7 @@ func runTask() -> Bool {
         case 5: begin05()
         case 6: begin06()
         case 7: begin07()
+        case 8: begin08()
         default:
             print("Нет задачи с номером \(taskNumber)")
             return true
@@ -36,19 +37,6 @@ func runTask() -> Bool {
 
 func doRefactor() {
 
-
-
-/*
- Begin8◦.
- Даны два числа a и b.
- Найти их среднее арифметическое: (a + b)/2.
- */
-
-    func arithmeticMean(firstNum: Double, secondNum: Double) -> Double {
-        (firstNum + secondNum) / 2
-    }
-
-    print("Среднее арифметическое: \(arithmeticMean(firstNum: 5, secondNum: 12))")
 
 /*
  Begin9◦.
