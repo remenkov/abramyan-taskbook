@@ -27,6 +27,7 @@ func runTask() -> Bool {
         case 6: begin06()
         case 7: begin07()
         case 8: begin08()
+        case 9: begin09()
         default:
             print("Нет задачи с номером \(taskNumber)")
             return true
@@ -36,20 +37,6 @@ func runTask() -> Bool {
 }
 
 func doRefactor() {
-
-
-/*
- Begin9◦.
- Даны два неотрицательных числа a и b.
- Найти их среднее геометрическое, то есть квадратный корень из их произведения: √a·b.
- */
-
-    func geometricMean(operandOne: Double, operandTwo: Double) -> Double {
-        sqrt(operandOne * operandTwo)
-    }
-
-    print("Корень квадратный из числа равен:\(geometricMean(operandOne: 12, operandTwo: 37))")
-
 /*
  Begin10◦. Даны два ненулевых числа.
  Найти сумму, разность, произведение и
