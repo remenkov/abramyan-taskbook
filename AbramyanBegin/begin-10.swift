@@ -10,7 +10,7 @@ func begin10() {
     guard let input = readLine(), let secondNum = Double(input) else { return }
 
     print("Введите операцию, которую желаете произвести над числами:")
-    print("1 - сложение, 2 - вычитание, 3 - произведение, 4 - частное квадратов")
+    print("1 - сложение, 2 - вычитание, 3 - произведение, 4 - деление.")
 
     guard let input = readLine(), let operation = Int(input) else { return }
 
