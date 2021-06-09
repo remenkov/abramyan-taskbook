@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E0DE7037FEF3E23B32D5F2CE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE727012D79396819C377C /* main.swift */; };
 		E0DE709DCB68799D02AD7067 /* begin-04.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE752BD7758CBB190B1D81 /* begin-04.swift */; };
+		E0DE75AC9AD7667C8E8AFD8D /* begin-10.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE70EE39E3ACA57EBE99A5 /* begin-10.swift */; };
 		E0DE772A5D1849ACA82B2095 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE76F118F4A18C989ADFE6 /* main.swift */; };
 		E0DE77A10D1E18799BE9325A /* begin-08.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE7291CF716D2768DD7413 /* begin-08.swift */; };
 		E0DE77F1660D11649BE6FEE8 /* begin-03.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE7B532629BCAB31123EE6 /* begin-03.swift */; };
@@ -63,6 +64,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E0DE70EE39E3ACA57EBE99A5 /* begin-10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "begin-10.swift"; sourceTree = "<group>"; };
 		E0DE727012D79396819C377C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E0DE727B3DB2AA93ED3932A7 /* begin-05.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "begin-05.swift"; sourceTree = "<group>"; };
 		E0DE7291CF716D2768DD7413 /* begin-08.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "begin-08.swift"; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				E0DE74FEC970CF370B5F9F94 /* begin-07.swift */,
 				E0DE7291CF716D2768DD7413 /* begin-08.swift */,
 				E0DE7A1420F9D9859AFA6920 /* begin-09.swift */,
+				E0DE70EE39E3ACA57EBE99A5 /* begin-10.swift */,
 			);
 			path = AbramyanBegin;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				E0DE7FD76B3197482890E630 /* begin-07.swift in Sources */,
 				E0DE77A10D1E18799BE9325A /* begin-08.swift in Sources */,
 				E0DE7E71DCA84F9BBB6FD271 /* begin-09.swift in Sources */,
+				E0DE75AC9AD7667C8E8AFD8D /* begin-10.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

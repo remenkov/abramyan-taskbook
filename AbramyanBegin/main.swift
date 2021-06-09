@@ -28,6 +28,7 @@ func runTask() -> Bool {
         case 7: begin07()
         case 8: begin08()
         case 9: begin09()
+        case 10: begin10()
         default:
             print("Нет задачи с номером \(taskNumber)")
             return true
@@ -37,39 +38,7 @@ func runTask() -> Bool {
 }
 
 func doRefactor() {
-/*
- Begin10◦. Даны два ненулевых числа.
- Найти сумму, разность, произведение и
- частное их квадратов.
- */
 
-
-    enum MathOperation {
-        case add
-        case difference
-        case times
-        case divide
-    }
-
-    func getTheResultOfMathOperationWithTwoNumbersToThe(
-        powerOf: Int?,
-        firstNum: Double,
-        secondNum: Double,
-        operationType: MathOperation
-    ) -> Double {
-        let result = Double()
-        switch operationType {
-            case .add:
-                pow(firstNum, Double(powerOf ?? 1)) + pow(secondNum, Double(powerOf ?? 1))
-            case .difference:
-                pow(firstNum, Double(powerOf ?? 1)) - pow(secondNum, Double(powerOf ?? 1))
-            case .times:
-                pow(firstNum, Double(powerOf ?? 1)) * pow(secondNum, Double(powerOf ?? 1))
-            case .divide:
-                pow(firstNum, Double(powerOf ?? 1)) / pow(secondNum, Double(powerOf ?? 1))
-        }
-        return result
-    }
 
     getTheResultOfMathOperationWithNumbersModules(firstNum: 5.7, secondNum: 3.3, operationType: .add)
 
