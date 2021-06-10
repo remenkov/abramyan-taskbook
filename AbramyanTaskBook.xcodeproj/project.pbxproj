@@ -14,6 +14,7 @@
 		E0DE77A10D1E18799BE9325A /* begin-08.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE7291CF716D2768DD7413 /* begin-08.swift */; };
 		E0DE77F1660D11649BE6FEE8 /* begin-03.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE7B532629BCAB31123EE6 /* begin-03.swift */; };
 		E0DE7807D9558D93BA83A9FA /* begin-02.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE7A93C84451E85F2C4232 /* begin-02.swift */; };
+		E0DE7917ADDAADC62ACAC14B /* begin-11.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE7F3FB7EEEDCE625B02FB /* begin-11.swift */; };
 		E0DE7A0D3591461E63A398F5 /* begin-06.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE75401B8F06F3A75A190B /* begin-06.swift */; };
 		E0DE7B9EB99E31CDBC05797D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE7E4C841458D77019DEC2 /* main.swift */; };
 		E0DE7BF3F9D49506F890FB69 /* for-01.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE7589C7F3EFE94263C3D5 /* for-01.swift */; };
@@ -83,6 +84,7 @@
 		E0DE7DD1B54570D6D304056C /* AbramyanBegin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbramyanBegin; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DE7E4C841458D77019DEC2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E0DE7EA62687A977F21F039E /* AbramyanCase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbramyanCase; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DE7F3FB7EEEDCE625B02FB /* begin-11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "begin-11.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				E0DE7291CF716D2768DD7413 /* begin-08.swift */,
 				E0DE7A1420F9D9859AFA6920 /* begin-09.swift */,
 				E0DE70EE39E3ACA57EBE99A5 /* begin-10.swift */,
+				E0DE7F3FB7EEEDCE625B02FB /* begin-11.swift */,
 			);
 			path = AbramyanBegin;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				E0DE77A10D1E18799BE9325A /* begin-08.swift in Sources */,
 				E0DE7E71DCA84F9BBB6FD271 /* begin-09.swift in Sources */,
 				E0DE75AC9AD7667C8E8AFD8D /* begin-10.swift in Sources */,
+				E0DE7917ADDAADC62ACAC14B /* begin-11.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

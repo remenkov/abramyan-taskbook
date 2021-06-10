@@ -7,12 +7,19 @@
 
 import Foundation
 
+enum MathOperation {
+    case add
+    case difference
+    case times
+    case divide
+}
+
 while runTask() {
 
 }
 
 func runTask() -> Bool {
-    print("\nВведите номер задачи (1-2 или 0 для выхода):")
+    print("\nВведите номер задачи (1-11 или 0 для выхода):")
     guard let input = readLine(), let taskNumber = Int(input) else {
         return true
     }
@@ -29,39 +36,11 @@ func runTask() -> Bool {
         case 8: begin08()
         case 9: begin09()
         case 10: begin10()
+        case 11: begin11()
         default:
             print("Нет задачи с номером \(taskNumber)")
             return true
     }
 
     return true
-}
-
-func doRefactor() {
-
-
-    getTheResultOfMathOperationWithNumbersModules(firstNum: 5.7, secondNum: 3.3, operationType: .add)
-
-/*
- Begin11◦.
- Даны два ненулевых числа.
- Найти сумму, разность, произведение и частное их модулей.
- */
-
-    func getTheResultOfMathOperationWithNumbersModules(firstNum: Double, secondNum: Double, operationType: MathOperation) -> Double {
-        var result =  Double()
-        switch  operationType {
-            case .add:
-                result = abs(firstNum) + abs(secondNum)
-            case .difference:
-                result = abs(firstNum) - abs(secondNum)
-            case .times:
-                result = abs(firstNum) * abs(secondNum)
-            case .divide:
-                result = abs(firstNum) / abs(secondNum)
-        }
-        return result
-    }
-
-
 }

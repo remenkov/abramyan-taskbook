@@ -56,13 +56,6 @@ func begin10() {
     }
 }
 
-enum MathOperation {
-    case add
-    case difference
-    case times
-    case divide
-}
-
 func getTheResultOfMathOperationWithTwoNumbers(
     firstNum: Double,
     secondNum: Double,
