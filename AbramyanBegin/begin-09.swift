@@ -10,9 +10,12 @@ func begin09() {
     print("Введите число b:")
     guard let input = readLine(), let operandTwo = Double(input) else { return }
 
-    print("Корень квадратный из числа равен:\(geometricMean(operandOne: 12, operandTwo: 37))")
+    print("""
+          Корень квадратный из числа равен:
+          \(geometricMean(operandOne: operandOne, operandTwo: operandTwo))
+          """)
 }
 
-func geometricMean(operandOne: Double, operandTwo: Double) -> Double {
+private func geometricMean(operandOne: Double, operandTwo: Double) -> Double {
     sqrt(operandOne * operandTwo)
 }

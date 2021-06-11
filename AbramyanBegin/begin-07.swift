@@ -11,10 +11,10 @@ func begin07() {
     print("Площадь круга составляет: \(getCircleSquare(radius: radius))")
 }
 
-func getCircleLength(radius: Double) -> Double {
+private func getCircleLength(radius: Double) -> Double {
     2 * Double.pi * radius
 }
 
-func getCircleSquare(radius: Double) -> Double {
+private func getCircleSquare(radius: Double) -> Double {
     Double.pi * pow(radius, 2)
 }

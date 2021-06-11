@@ -48,21 +48,23 @@ func begin11() {
     }
 }
 
-func getTheResultOfMathOperationWithNumbersModules(
+private func getTheResultOfMathOperationWithNumbersModules(
     firstNum: Double,
     secondNum: Double,
     operationType: MathOperation
 ) -> Double {
     var result =  Double()
+    let absFirstNum = abs(firstNum)
+    let absSecondNum = abs(secondNum)
     switch  operationType {
         case .add:
-            result = abs(firstNum) + abs(secondNum)
+            result = absFirstNum + absSecondNum
         case .difference:
-            result = abs(firstNum) - abs(secondNum)
+            result = absFirstNum - absSecondNum
         case .times:
-            result = abs(firstNum) * abs(secondNum)
+            result = absFirstNum * absSecondNum
         case .divide:
-            result = abs(firstNum) / abs(secondNum)
+            result = absFirstNum / absSecondNum
     }
     return result
 }

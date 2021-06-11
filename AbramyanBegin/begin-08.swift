@@ -10,6 +10,6 @@ func begin08() {
     print("Среднее арифметическое: \(arithmeticMean(firstNum: aNumber, secondNum: bNumber))")
 }
 
-func arithmeticMean(firstNum: Double, secondNum: Double) -> Double {
+private func arithmeticMean(firstNum: Double, secondNum: Double) -> Double {
     (firstNum + secondNum) / 2
 }

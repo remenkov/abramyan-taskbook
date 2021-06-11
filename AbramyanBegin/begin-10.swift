@@ -56,21 +56,23 @@ func begin10() {
     }
 }
 
-func getTheResultOfMathOperationWithTwoNumbers(
+private func getTheResultOfMathOperationWithTwoNumbers(
     firstNum: Double,
     secondNum: Double,
     operationType: MathOperation
 ) -> Double {
     var result = Double()
+    let firstNumPow2 = pow(firstNum, 2)
+    let secondNumPow2 = pow(secondNum, 2)
     switch operationType {
         case .add:
-            result = pow(firstNum, 2) + pow(secondNum, 2)
+            result = firstNumPow2 + secondNumPow2
         case .difference:
-            result = pow(firstNum, 2) - pow(secondNum, 2)
+            result = firstNumPow2 - secondNumPow2
         case .times:
-            result = pow(firstNum, 2) * pow(secondNum, 2)
+            result = firstNumPow2 * secondNumPow2
         case .divide:
-            result = pow(firstNum, 2) / pow(secondNum, 2)
+            result = firstNumPow2 / secondNumPow2
     }
     return result
 }

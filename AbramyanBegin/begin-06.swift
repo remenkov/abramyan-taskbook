@@ -11,7 +11,7 @@ func begin06() {
     print("Введите длину ребра c:")
     guard let input = readLine(), let edgeC = Double(input) else { return }
 
-    print("Объём параллепипеда равен: \(getParallelepipedValue(edgeA: 5, edgeB: 7, edgeC: 15))")
+    print("Объём параллепипеда равен: \(getParallelepipedValue(edgeA: edgeA, edgeB: edgeB, edgeC: edgeC))")
     print("""
           Площадь поверхности равна:
           \(getParallelepipedSquare(edgeA: edgeA, edgeB: edgeB, edgeC: edgeC))
